@@ -12,8 +12,7 @@ final class Configuration implements ConfigurationInterface
 
     public function getConfigTreeBuilder(): TreeBuilder
     {
-        $treeBundle = new TreeBuilder('custom_validation');
-
-        return $treeBundle;
+        return new TreeBuilder('custom_validation');
+        ;
     }
 }

@@ -9,7 +9,7 @@ use Symfony\Component\Validator\Constraint;
 /**
  * @Annotation
  */
-class IntegerConstraint extends Constraint
+class IntegerIdConstraint extends Constraint
 {
     private int $min = 1;
 
@@ -31,7 +31,7 @@ class IntegerConstraint extends Constraint
 
     public function validatedBy(): string
     {
-        return IntegerConstraintValidator::class;
+        return IntegerIdConstraintValidator::class;
     }
 
     public function getMin(): int
@@ -44,7 +44,7 @@ class IntegerConstraint extends Constraint
         return $this->max;
     }
 
-    public function setMax(int $max): IntegerConstraint
+    public function setMax(int $max): IntegerIdConstraint
     {
         $this->max = $max;
 

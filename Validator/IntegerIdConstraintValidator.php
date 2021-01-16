@@ -8,15 +8,15 @@ use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\ConstraintValidator;
 use Symfony\Component\Validator\Exception\UnexpectedTypeException;
 
-class IntegerConstraintValidator extends ConstraintValidator
+class IntegerIdConstraintValidator extends ConstraintValidator
 {
     /**
      * @inheritDoc
      */
     public function validate($value, Constraint $constraint)
     {
-        if (!$constraint instanceof IntegerConstraint) {
-            throw new UnexpectedTypeException($constraint, IntegerConstraint::class);
+        if (!$constraint instanceof IntegerIdConstraint) {
+            throw new UnexpectedTypeException($constraint, IntegerIdConstraint::class);
         }
 
         if ($value === null || $value === '') {

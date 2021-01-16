@@ -10,6 +10,13 @@
 
     <rule ref="PSR2"/>
 
-    <file>src/</file>
+    <file>./DependencyInjection/</file>
+    <file>./DTO/</file>
+    <file>./Enum/</file>
+    <file>./Exception/</file>
+    <file>./Resources/</file>
+    <file>./Service/</file>
+    <file>./Test/</file>
+    <file>./Validator/</file>
 
 </ruleset>

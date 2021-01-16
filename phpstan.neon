@@ -1,0 +1,11 @@
+parameters:
+  level: 0
+  paths:
+    - DependencyInjection
+    - DTO
+    - Enum
+    - Exception
+    - Service
+    - Validator
+  bootstrapFiles:
+    - vendor/bin/.phpunit/phpunit-8.5-0/vendor/autoload.php
