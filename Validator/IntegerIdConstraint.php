@@ -15,9 +15,6 @@ class IntegerIdConstraint extends Constraint
 
     private int $max;
 
-    /**
-     * @param int $max
-     */
     public function __construct(int $max = PHP_INT_MAX)
     {
         parent::__construct();

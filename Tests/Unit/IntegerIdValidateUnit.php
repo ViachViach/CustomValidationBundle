@@ -14,7 +14,7 @@ class IntegerIdValidateUnit extends TestCase
 {
     private ExecutionContext $executionContextBuilderMock;
 
-    public function testValidation()
+    public function testValidation(): void
     {
         $id = rand(1, PHP_INT_MAX);
 

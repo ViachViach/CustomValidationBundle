@@ -13,6 +13,5 @@ final class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder(): TreeBuilder
     {
         return new TreeBuilder('custom_validation');
-        ;
     }
 }
