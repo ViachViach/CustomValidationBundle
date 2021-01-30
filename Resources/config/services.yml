@@ -1,3 +1,8 @@
 services:
   service.validation:
     class: CustomValidationBundle\Service\ValidationService
+    public: false
+
+  CustomValidationBundle\Service\ValidationServiceInterface:
+    alias: '@service.validation'
+    public: true
