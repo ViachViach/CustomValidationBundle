@@ -4,5 +4,5 @@ services:
     public: false
 
   CustomValidationBundle\Service\ValidationServiceInterface:
-    alias: '@service.validation'
+    alias: service.validation
     public: true
