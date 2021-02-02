@@ -1,6 +1,8 @@
 services:
   service.validation:
     class: CustomValidationBundle\Service\ValidationService
+    arguments:
+      - '@validator'
     public: false
 
   CustomValidationBundle\Service\ValidationServiceInterface:
