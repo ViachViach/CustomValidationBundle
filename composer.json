@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "CustomValidationBundle\\": ""
+            "CustomValidationBundle\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "CustomValidationBundl\\Tests\\": "Test"
+            "CustomValidationBundl\\Tests\\": "tests"
         }
     },
     "scripts": {
