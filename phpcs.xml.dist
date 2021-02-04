@@ -10,14 +10,8 @@
 
     <rule ref="PSR2"/>
 
-    <file>./DependencyInjection/</file>
-    <file>./DTO/</file>
-    <file>./Enum/</file>
-    <file>./Exception/</file>
-    <file>./Resources/</file>
-    <file>./Service/</file>
-    <file>./Tests/</file>
-    <file>./Validator/</file>
+    <file>./src/</file>
+    <file>./tests/</file>
 
     <rule ref="PSR1.Methods.CamelCapsMethodName.NotCamelCaps" />
     <config name="installed_paths" value="vendor/slevomat/coding-standard"/>
@@ -35,14 +29,8 @@
     <rule ref="SlevomatCodingStandard.TypeHints"/>
 
     <rule ref="SlevomatCodingStandard.TypeHints.DisallowArrayTypeHintSyntax">
-        <exclude-pattern>./DependencyInjection/</exclude-pattern>
-        <exclude-pattern>./DTO/</exclude-pattern>
-        <exclude-pattern>./Enum/</exclude-pattern>
-        <exclude-pattern>./Exception/</exclude-pattern>
-        <exclude-pattern>./Resources/</exclude-pattern>
-        <exclude-pattern>./Service/</exclude-pattern>
-        <exclude-pattern>./Tests/</exclude-pattern>
-        <exclude-pattern>./Validator/</exclude-pattern>
+        <exclude-pattern>./src/</exclude-pattern>
+        <exclude-pattern>./tests/</exclude-pattern>
     </rule>
 
     <rule ref="SlevomatCodingStandard.Exceptions.ReferenceThrowableOnly"/>
@@ -59,7 +47,7 @@
     <rule ref="SlevomatCodingStandard.Functions.StrictCall"/>
 
      <rule ref="SlevomatCodingStandard.Functions.UnusedParameter">
-          <exclude-pattern>/DependencyInjection</exclude-pattern>
+          <exclude-pattern>/src/DependencyInjection</exclude-pattern>
      </rule>
 
     <rule ref="SlevomatCodingStandard.Functions.UnusedInheritedVariablePassedToClosure"/>

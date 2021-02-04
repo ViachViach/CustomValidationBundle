@@ -10,13 +10,7 @@
         xsi:schemaLocation="https://getpsalm.org/schema/config vendor/vimeo/psalm/config.xsd"
 >
     <projectFiles>
-        <directory name="DependencyInjection"/>
-        <directory name="DTO"/>
-        <directory name="Enum"/>
-        <directory name="Exception"/>
-        <directory name="Resources"/>
-        <directory name="Service"/>
-        <directory name="Validator"/>
+        <directory name="src"/>
         <ignoreFiles>
             <directory name="vendor"/>
         </ignoreFiles>
