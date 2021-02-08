@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CustomValidationBundle\Service;
+namespace ViachViach\CustomValidationBundle\Service;
 
 interface ValidationServiceInterface
 {

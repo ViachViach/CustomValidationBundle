@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CustomValidationBundl\Tests\Unit;
+namespace ViachViach\CustomValidationBundl\Tests\Unit;
 
 use CustomValidationBundle\Validator\IntegerIdConstraint;
 use CustomValidationBundle\Validator\IntegerIdConstraintValidator;

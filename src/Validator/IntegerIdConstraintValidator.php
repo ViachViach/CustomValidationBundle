@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CustomValidationBundle\Validator;
+namespace ViachViach\CustomValidationBundle\Validator;
 
 use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\ConstraintValidator;

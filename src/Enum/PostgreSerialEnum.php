@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CustomValidationBundle\Enum;
+namespace ViachViach\CustomValidationBundle\Enum;
 
 final class PostgreSerialEnum
 {

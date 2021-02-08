@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CustomValidationBundle\DependencyInjection;
+namespace ViachViach\CustomValidationBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

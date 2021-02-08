@@ -2,12 +2,11 @@
 
 declare(strict_types=1);
 
-namespace CustomValidationBundle\Service;
+namespace ViachViach\CustomValidationBundle\Service;
 
-use CustomValidationBundle\Exception\ValidationException;
 use Symfony\Component\Validator\ConstraintViolationListInterface;
-use Symfony\Component\Validator\Exception\ValidatorException;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
+use ViachViach\CustomValidationBundle\Exception\ValidationException;
 
 class ValidationService implements ValidationServiceInterface
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CustomValidationBundle;
+namespace ViachViach\CustomValidationBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

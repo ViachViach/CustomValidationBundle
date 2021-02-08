@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CustomValidationBundle\DTO;
+namespace ViachViach\CustomValidationBundle\DTO;
 
 class ValidationExceptionInfo
 {

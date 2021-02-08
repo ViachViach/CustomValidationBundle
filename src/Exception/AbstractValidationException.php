@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace CustomValidationBundle\Exception;
+namespace ViachViach\CustomValidationBundle\Exception;
 
-use CustomValidationBundle\DTO\ValidationExceptionInfo;
 use Exception;
 use InvalidArgumentException;
 use Symfony\Component\Validator\ConstraintViolationInterface;
 use Symfony\Component\Validator\ConstraintViolationListInterface;
+use ViachViach\CustomValidationBundle\DTO\ValidationExceptionInfo;
 
 class AbstractValidationException extends Exception
 {
