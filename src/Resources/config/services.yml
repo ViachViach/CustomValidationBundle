@@ -1,10 +1,10 @@
 services:
   service.validation:
-    class: CustomValidationBundle\Service\ValidationService
+    class: ViachViach\CustomValidationBundle\Service\ValidationService
     arguments:
       - '@validator'
     public: false
 
-  CustomValidationBundle\Service\ValidationServiceInterface:
+  ViachViach\CustomValidationBundle\Service\ValidationServiceInterface:
     alias: service.validation
     public: true
