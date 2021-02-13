@@ -6,7 +6,7 @@ namespace ViachViach\CustomValidationBundle\Service;
 
 use Symfony\Component\Validator\ConstraintViolationListInterface;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
-use ViachViach\CustomValidationBundle\Exception\ValidationException;
+use ViachViach\Storage\Exception\ValidationException;
 
 class ValidationService implements ValidationServiceInterface
 {
